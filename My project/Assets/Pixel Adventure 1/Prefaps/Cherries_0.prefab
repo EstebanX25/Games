@@ -119,7 +119,7 @@ GameObject:
   - component: {fileID: 7540922018631247687}
   - component: {fileID: 876505944626205319}
   - component: {fileID: 4668349415904284619}
-  - component: {fileID: 5314393423749145195}
+  - component: {fileID: 8108699200880422100}
   m_Layer: 0
   m_Name: Cherries_0
   m_TagString: Untagged
@@ -357,7 +357,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &5314393423749145195
+--- !u!114 &8108699200880422100
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -366,6 +366,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 7289908389801409972}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b7ef637e2cf21904498a8eb74bd583de, type: 3}
+  m_Script: {fileID: 11500000, guid: b573f240e59c9da409238803ba0c14d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
