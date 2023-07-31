@@ -8,9 +8,9 @@ public class PlayerMove : MonoBehaviour
     SpriteRenderer sR;
     Animator ani;
 
-    private float speed = 1.5f;
+    public float speed = 2f;
     private bool doubleJump = true;
-    private float jumping = 2.5f;
+    public float jumping = 5f;
     public float inicioX = 0f;
     public float inicioY = 0f;
     private bool appearingActive = true;
@@ -29,6 +29,9 @@ public class PlayerMove : MonoBehaviour
         if (appearingActive)
         {
             Appering();
+        }
+        if (DamagePlayer.damageSignal == false && pauseManager.pause == false)
+        {
             HorizontalController();
             JumpController();
         } 
