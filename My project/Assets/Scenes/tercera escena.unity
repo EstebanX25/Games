@@ -221,7 +221,7 @@ GameObject:
   - component: {fileID: 38101956}
   m_Layer: 3
   m_Name: piso
-  m_TagString: suelo
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19608,7 +19608,8 @@ GameObject:
   - component: {fileID: 85059530}
   - component: {fileID: 85059535}
   - component: {fileID: 85059536}
-  m_Layer: 0
+  - component: {fileID: 85059537}
+  m_Layer: 6
   m_Name: Warrior_Sheet-Effect_0
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -19752,8 +19753,8 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1375294503}
-  - {fileID: 896569488}
   - {fileID: 1454045578}
+  - {fileID: 896569488}
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -19794,6 +19795,102 @@ MonoBehaviour:
   jumping: 5
   inicioX: -1.9
   inicioY: -0.22
+--- !u!82 &85059537
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 85059528}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 2b5575bfbeab2b34db9ff0dc6d614fa7, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &88156240
 GameObject:
   m_ObjectHideFlags: 0
@@ -22107,7 +22204,7 @@ GameObject:
   - component: {fileID: 896569488}
   - component: {fileID: 896569490}
   - component: {fileID: 896569489}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Virtual Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23237,7 +23334,7 @@ GameObject:
   - component: {fileID: 1375294503}
   - component: {fileID: 1375294505}
   - component: {fileID: 1375294504}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Appearing (96x96)_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23488,7 +23585,7 @@ GameObject:
   - component: {fileID: 1454045578}
   - component: {fileID: 1454045580}
   - component: {fileID: 1454045579}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23551,7 +23648,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.07459366, y: -0.22134982}
@@ -25153,7 +25250,7 @@ GameObject:
   - component: {fileID: 2023223261}
   - component: {fileID: 2023223263}
   - component: {fileID: 2023223262}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: cm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25521,6 +25618,7 @@ GameObject:
   - component: {fileID: 2127142992}
   - component: {fileID: 2127142994}
   - component: {fileID: 2127142993}
+  - component: {fileID: 2127142995}
   m_Layer: 0
   m_Name: Panel
   m_TagString: Untagged
@@ -25592,6 +25690,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2127142991}
   m_CullTransparentMesh: 1
+--- !u!114 &2127142995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2127142991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c83122a917e6004e9129c130f36da44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2146973008
 GameObject:
   m_ObjectHideFlags: 0
